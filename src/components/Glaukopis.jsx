@@ -30,8 +30,8 @@ const stack = [
 
 export default function Glaukopis() {
   return (
-    <section className="min-h-screen px-6 py-20 max-w-4xl mx-auto">
-      <h2 className="text-3xl font-bold mb-2">🦉 Glaukopis</h2>
+<section className="min-h-screen px-6 lg:pl-64 lg:pr-12 py-20">
+        <h2 className="text-3xl font-bold mb-2">🦉 Glaukopis</h2>
       <p className="text-lg text-gray-500 mb-8">
         A self-built university collaboration platform for knowledge sharing, peer learning, and AI-assisted academic tools.
       </p>

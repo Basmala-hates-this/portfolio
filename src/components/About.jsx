@@ -1,6 +1,7 @@
 export default function About() {
   return (
-    <section className="min-h-screen flex flex-col justify-center px-6 max-w-2xl mx-auto">
+   <section className="min-h-screen flex flex-col justify-center px-6 lg:pl-64 lg:pr-12 py-20">
+  <div className="max-w-2xl">
       <h2 className="text-3xl font-bold mb-6">About me</h2>
 
       <p className="text-lg text-gray-500 mb-4">
@@ -36,6 +37,7 @@ export default function About() {
         Last known location: somewhere between a code editor and a completely
         unrelated article.
       </p>
+       </div>
     </section>
   )
 }
