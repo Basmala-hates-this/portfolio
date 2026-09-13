@@ -1,6 +1,6 @@
 export default function About() {
   return (
-   <section className="min-h-screen flex flex-col justify-center px-6 lg:pl-64 lg:pr-12 py-20">
+   <section id="about" className="min-h-screen flex flex-col justify-center px-6 lg:pl-64 lg:pr-12 py-20">
   <div className="max-w-2xl">
       <h2 className="text-3xl font-bold mb-6">About me</h2>
 
@@ -19,12 +19,13 @@ export default function About() {
         my attention.
       </p>
 
-      <p className="text-lg text-gray-500 mb-4">
-        I learn by building. Most of my projects start with a question, an idea,
-        or occasionally a terrible decision that somehow turns into a project.
-        I like taking an idea from "wouldn't it be interesting if..." to
-        something that actually works.
-      </p>
+     <p className="text-lg text-gray-500 mb-4">
+  I learn by building. Most of my projects start with a question, an idea,
+  or occasionally a terrible decision that somehow turns into a project.
+  I like taking an idea from "wouldn't it be interesting if..." to
+  something that actually works — these days, a lot of that starts with
+  vibing with an AI until it works, then going back to figure out why.
+</p>
 
       <p className="text-lg text-gray-500 mb-4">
         For me, technology is a tool rather than the destination. I'm interested

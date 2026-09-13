@@ -114,7 +114,7 @@ const projects = [
 
 export default function Projects() {
   return (
-<section className="min-h-screen px-6 lg:pl-64 lg:pr-12 py-20">
+<section id='projects' className="min-h-screen px-6 lg:pl-64 lg:pr-12 py-20">
         <h2 className="text-3xl font-bold mb-8">Small Scale Projects</h2>
      <div className="flex flex-col gap-8">
         {projects.map((p) => (
