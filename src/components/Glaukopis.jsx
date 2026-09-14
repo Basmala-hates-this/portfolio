@@ -35,9 +35,11 @@ const stack = [
 
 export default function Glaukopis() {
   return (
-<section id='glaukopis' className="min-h-screen px-6 lg:pl-64 lg:pr-12 py-20">
-        <h2 className="text-3xl font-bold mb-2">🦉 Glaukopis</h2>
-      <p className="text-lg text-gray-500 mb-8">
+<section id='glaukopis' className="min-h-screen px-6
+ lg:pl-64 lg:pr-12 py-20 
+ ml-5 bg-gradient-to-br from-bg-sidebar to-bg-blue-dark text-text-primary">
+        <h2 className="text-3xl font-bold mb-2 text-text-main">🦉 Glaukopis</h2>
+      <p className="text-lg text-text-soft mb-8">
         A self-built university collaboration platform for knowledge sharing, peer learning, and AI-assisted academic tools.
       </p>
 
@@ -48,23 +50,23 @@ export default function Glaukopis() {
 )}
 
       <div className="mb-8">
-        <h3 className="text-xl font-semibold mb-2">About the project</h3>
-        <p className="text-gray-500 mb-3">
+        <h3 className="text-xl font-semibold mb-2 text-text-postTitle">About the project</h3>
+        <p className="text-text-muted mb-3">
           Glaukopis started as a relatively simple university collaboration concept
           and grew considerably as new ideas and technical challenges appeared along
           the way. It's not meant to be a perfect production system — it's a highly
           functional project built progressively from scratch, well beyond its
           original prototype.</p>
-        <p className="text-gray-500">
+        <p className="text-text-soft">
           The goal was never just to finish an app, but to use building it as a way
           to explore, break, improve, and learn.
         </p>
       </div>
       <div className="mb-8">
-  <h3 className="text-xl font-semibold mb-3">Key Features</h3>
+  <h3 className="text-xl font-semibold mb-3 text-text-postTitle">Key Features</h3>
 
-  <Collapsible title="Community">
-    <ul className="list-disc list-inside text-gray-500 space-y-1">
+  <Collapsible title="Community"  className="text-text-soft">
+    <ul className="list-disc list-inside text-text-muted space-y-1">
       <li>Post/comment structured collaboration</li>
       <li>Room-oriented architecture (public, university, major, subject, private)</li>
       <li>Answered/unanswered question filtering</li>
@@ -75,8 +77,8 @@ export default function Glaukopis() {
     </ul>
   </Collapsible>
 
-  <Collapsible title="AI-assisted">
-    <ul className="list-disc list-inside text-gray-500 space-y-1">
+  <Collapsible title="AI-assisted" className="text-text-soft">
+    <ul className="list-disc list-inside text-text-muted space-y-1">
       <li>Question suggestions</li>
       <li>Study material generation</li>
       <li>Smart search assistance</li>
@@ -86,25 +88,25 @@ export default function Glaukopis() {
       <li>Voice navigation</li>
     </ul>
   </Collapsible>
-  <p className="text-gray-500 mb-3">
+  <p className="text-text-soft mb-3">
          ....There is still more to this project then the list of features mentioned and the screenshots, but I will let you explore it yourself.
         </p>
 </div>
 
       <div className="mb-8">
-        <h3 className="text-xl font-semibold mb-2">Stack</h3>
+        <h3 className="text-xl font-semibold mb-2 text-text-postTitle">Stack</h3>
         <ul className="space-y-2">
           {stack.map((s) => (
-            <li key={s.name} className="text-gray-500">
-              <span className="font-medium text-gray-700">{s.name}</span> — {s.blurb}
+            <li key={s.name} className="text-text-muted">
+              <span className="font-medium text-text-postTitle">{s.name}</span> — {s.blurb}
             </li>
           ))}
         </ul>
       </div>
 
       <div className="mb-8">
-        <h3 className="text-xl font-semibold mb-2">Where it stands</h3>
-        <p className="text-gray-500">
+        <h3 className="text-xl font-semibold mb-2 text-text-postTitle">Where it stands</h3>
+        <p className="text-text-soft">
           Currently paused — but not abandoned. Most core and advanced features are
           complete (real-time chat, peer endorsements, AI study tools, cross-specialty
           rooms). What's left is mostly polish: voice navigation, call UI, mobile
@@ -114,8 +116,23 @@ export default function Glaukopis() {
       </div>
 
       <div className="flex gap-4">
-        <a href="https://glaukopis.vercel.app/" className="underline text-blue-600">Live site</a>
-        <a href="https://github.com/Basmala-hates-this/Glaukopis" className="underline text-blue-600">GitHub</a>
+        <a href="https://glaukopis.vercel.app/" className="no-underline text-success 
+        hover:text-text-main
+  transition-all px-6 py-4 rounded-md 
+   translate-y-0 hover:translate-y-1
+   hover:shadow-[0_8px_20px_var(--color-accent-neon)]
+   focus:outline-none focus:ring-2 focus:ring-text-main hover:bg-bg-dark2
+
+        
+        ">Live site</a>
+        <a href="https://github.com/Basmala-hates-this/Glaukopis" className="no-underline text-success
+        hover:text-text-main
+  transition-all px-6 py-4 rounded-md 
+   translate-y-0 hover:translate-y-1
+   hover:shadow-[0_8px_20px_var(--color-accent-neon)]
+   focus:outline-none focus:ring-2 focus:ring-text-main hover:bg-bg-dark2
+
+        ">GitHub</a>
         {/* i might remove the github link */}
       </div>
     </section>

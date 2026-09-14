@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Sidebar />
-      <main>
+      <main className="bg-bg-sidebar text-text-primary min-h-screen left-10">
         <Hero />
         <About />
         <Glaukopis />

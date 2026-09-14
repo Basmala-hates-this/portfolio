@@ -1,2 +1,55 @@
 @import "tailwindcss";
 
+@theme {
+  /* === Surfaces === */
+  --color-bg-body:     #2A3548;
+  --color-bg-sidebar:  #232C3D;
+  --color-bg-main:     #2A3548;
+  --color-bg-header:   rgba(35, 44, 61, 0.85);
+  --color-bg-panel:    rgba(52, 64, 86, 0.5);
+  --color-bg-card:     #34405A;
+  --color-bg-soft:     rgba(74, 90, 117, 0.5);
+  --color-blue-dark:   #31026eee;
+  --color-dark:        #6E86A8;
+  --color-light:       #EDE6D8;
+  --color-dark2:       #1356c2ce;
+  --color-chat-bg:     rgba(110, 142, 178, 0.35);
+  --color-bg-primary:  #26314A;
+
+  /* === Text === */
+  --color-text-main:      #EDE6D8;
+  --color-text-muted:     #A8ADBB;
+  --color-text-soft:      #C2C7D1;
+  --color-text-postTitle: #FFFFFF;
+  --color-text-main-inv:  #1C2433;
+
+  /* === Accent === */
+  --color-accent:       #C9A66B;
+  --color-accent-hover: #DFC58F;
+  --color-accent-glow:  #E8D9B5;
+  --color-accent-neon:  #47c2c2;
+
+  /* === Borders & Effects === */
+  --color-border-soft: rgba(201, 166, 107, 0.25);
+  --color-shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+  /* === Status === */
+  --color-success: #7FA88A;
+  --color-warning: #C6A15B;
+  --color-danger:  #B86F6F;
+
+  /* ===Gradient  */
+  --color-gradient-main:
+    linear-gradient(135deg, #0D1117, #17212B);
+
+  --color-gradient-gold:
+    linear-gradient(135deg, #C9A66B, #967746);
+
+  --color-gradient-owl:
+    linear-gradient(
+      135deg,
+      #0D1117 0%,
+      #17212B 55%,
+      #24313D 100%
+    );
+}

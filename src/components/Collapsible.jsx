@@ -7,7 +7,7 @@ export default function Collapsible({ title, children }) {
     <div className="mb-4">
       <button
         onClick={() => setOpen(!open)}
-        className="font-medium text-gray-700 mb-1 flex items-center gap-1"
+        className="font-medium  text-text-soft mb-1 flex items-center gap-1"
       >
         <span>{open ? '▾' : '▸'}</span> {title}
       </button>

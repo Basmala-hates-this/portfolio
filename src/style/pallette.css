@@ -1,0 +1,99 @@
+/* me no like  */
+:root {
+
+
+  --bg-deep:        #0D1117;
+  --bg-primary:     #111820;
+  --bg-secondary:   #17212B;
+  --bg-surface:     #344557;
+  --bg-elevated:    #103c66;
+
+
+
+  --text-primary:   #E6E1D8;
+  --text-secondary: #B8B5AE;
+  --text-muted:     #858A8F;
+  --text-dark:      #596168;
+
+
+
+  --gold:            #C9A66B;
+  --gold-light:      #DFC58F;
+  --gold-dark:       #967746;
+  --gold-glow:       rgba(201, 166, 107, 0.20);
+
+
+
+  --teal:            #6E8B8B;
+  --teal-light:      #8FAEAE;
+  --teal-dark:       #4D6868;
+  --teal-glow:       rgba(110, 139, 139, 0.18);
+
+
+
+  --success:         #7FA88A;
+  --warning:         #C6A15B;
+  --danger:          #B86F6F;
+  --info:            #7896A8;
+
+
+
+  --border:          #3b18bb1a;
+  --border-gold:     rgba(201, 166, 107, 0.30);
+  --shadow:          rgba(0, 0, 0, 0.35);
+
+
+  --gradient-main:
+    linear-gradient(135deg, #0D1117, #17212B);
+
+  --gradient-gold:
+    linear-gradient(135deg, #C9A66B, #967746);
+
+  --gradient-owl:
+    linear-gradient(
+      135deg,
+      #0D1117 0%,
+      #17212B 55%,
+      #24313D 100%
+    );
+}
+
+
+:root {
+  /* === Surfaces === */
+  --bg-body:     #2A3548;
+  --bg-sidebar:  #232C3D;
+  --bg-main:     #2A3548;
+  --bg-header:   rgba(35, 44, 61, 0.85);
+  --bg-panel:    rgba(52, 64, 86, 0.5);
+  --bg-card:     #34405A;
+  --bg-soft:     rgba(74, 90, 117, 0.5);
+  --blue-dark:   #31026eee;
+  --dark:        #160c70;
+  --light:       #EDE6D8;
+  --dark2:       #1356c2ce;
+  --chat-bg:     rgba(110, 142, 178, 0.35);
+  --bg-primary:  #26314A;
+
+  /* === Text === */
+  --text-main:      #EDE6D8;
+  --text-muted:     #A8ADBB;
+  --text-soft:      #C2C7D1;
+  --text-postTitle: #FFFFFF;
+  --text-main-inv:  #1C2433;
+
+  /* === Accent === */
+  --accent:       #C9A66B;
+  --accent-hover: #DFC58F;
+  --accent-glow:  #E8D9B5;
+  --accent-neon:  #47c2c2;
+
+  /* === Borders & Effects === */
+  --border-soft: rgba(201, 166, 107, 0.25);
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+  /* === Status === */
+  --success: #7FA88A;
+  --warning: #C6A15B;
+  --danger:  #B86F6F;
+}
