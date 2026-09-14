@@ -1,6 +1,6 @@
 export default function About() {
   return (
-   <section id="about" className="min-h-screen flex flex-col
+   <section id="about" className="min-h-screen flex flex-col font-syne
     justify-center px-6 lg:pl-64 lg:pr-12 py-20 
     ml-5 bg-gradient-to-br from-bg-sidebar to-bg-body text-text-primary
     ">

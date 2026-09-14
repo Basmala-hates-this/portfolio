@@ -11,7 +11,7 @@ export default function Sidebar() {
     <nav className="hidden lg:flex flex-col  border-r-4 border-t border-b
 fixed top-1  left-1 right-1 mb-10 mr-10  h-screen w-64 px-6 py-10
  gap-8 bg-gradient-to-br from-bg-sidebar to-dark2 text-text-primary  border-success
- rounded-md"
+ rounded-md font-mono font-bold"
  
  >
       {links.map((link) => (

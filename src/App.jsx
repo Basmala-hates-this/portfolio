@@ -14,8 +14,8 @@ import Sidebar from './components/Sidebar'
 function App() {
   return (
     <>
-      <Sidebar />
-      <main className="bg-bg-sidebar text-text-primary min-h-screen left-10">
+      <Sidebar className="" />
+      <main className="bg-bg-sidebar text-text-primary min-h-screen left-10 ">
         <Hero />
         <About />
         <Glaukopis />
