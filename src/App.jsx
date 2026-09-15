@@ -15,7 +15,8 @@ function App() {
   return (
     <>
       <Sidebar className="" />
-      <main className="bg-bg-sidebar text-text-primary min-h-screen left-10 ">
+      <main className="bg-linear-[135deg,var(--color-light),var(--color-bg-sidebar),var(--color-bg-main),var(--color-bg-body),var(--color-bg-card),var(--color-dark),var(--color-blue-dark),var(--color-chat-bg)]
+      text-text-primary min-h-screen left-10 ">
         <Hero />
         <About />
         <Glaukopis />

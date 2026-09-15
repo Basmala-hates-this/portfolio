@@ -8,7 +8,7 @@
   --bg-surface:     #344557;
   --bg-elevated:    #103c66;
 
-
+ 
 
   --text-primary:   #E6E1D8;
   --text-secondary: #B8B5AE;
@@ -72,7 +72,7 @@
   --dark:        #160c70;
   --light:       #EDE6D8;
   --dark2:       #1356c2ce;
-  --chat-bg:     rgba(110, 142, 178, 0.35);
+  --chat-bg:     rgba(110, 142, 178, 0.795);
   --bg-primary:  #26314A;
 
   /* === Text === */

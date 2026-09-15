@@ -37,7 +37,7 @@ export default function Glaukopis() {
   return (
 <section id='glaukopis' className="min-h-screen px-6
  lg:pl-64 lg:pr-12 py-20 
- ml-5 bg-gradient-to-br from-bg-sidebar to-bg-blue-dark text-text-primary">
+ ml-5  text-text-primary">
         <h2 className="text-3xl font-bold mb-2 text-text-main">🦉 Glaukopis</h2>
       <p className="text-lg text-text-soft mb-8">
         A self-built university collaboration platform for knowledge sharing, peer learning, and AI-assisted academic tools.
