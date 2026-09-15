@@ -6,6 +6,11 @@ const links = [
   { href: '#contact', label: 'Contact' },
 ]
 
+const handleClick = (e, href) => {
+  e.preventDefault()
+  document.querySelector(href)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
+
 export default function Sidebar() {
   return (
     <nav className="hidden lg:flex flex-col  border-r-4 border-t border-b
@@ -20,6 +25,7 @@ fixed top-1  left-1 right-1 mb-10 mr-10  h-screen w-64 px-6 py-10
         <a
           key={link.href}
           href={link.href}
+           onClick={(e) => handleClick(e, link.href)}
         className="block w-full text-center
        
  text-text-soft hover:text-text-main

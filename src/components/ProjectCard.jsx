@@ -3,7 +3,7 @@ import ScreenshotSlider from './ScreenshotSlider'
 export default function ProjectCard({ name, blurb, tech, status, repo, liveLink, image, images, features }) {
   return (
     <div className="flex flex-col sm:flex-row gap-6 border-3 border-success  rounded-lg p-5">
-      <div className="sm:w-2/5 shrink-0">
+      <div className="sm:w-1/2 shrink-0">
         {images && images.length > 0 ? (
           <ScreenshotSlider images={images} />
         ) : image ? (

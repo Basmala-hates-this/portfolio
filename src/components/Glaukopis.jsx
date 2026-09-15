@@ -44,7 +44,7 @@ export default function Glaukopis() {
       </p>
 
       {screenshots.length > 0 && (
-  <div className="max-w-1/2 mx-auto mb-8">
+  <div className="max-w-9/10 mx-auto mb-8">
     <ScreenshotSlider images={screenshots} />
   </div>
 )}

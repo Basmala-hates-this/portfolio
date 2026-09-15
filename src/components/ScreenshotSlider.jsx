@@ -1,13 +1,25 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function ScreenshotSlider({ images }) {
   const [index, setIndex] = useState(0)
+  const [paused, setPaused] = useState(false)
 
   const next = () => setIndex((i) => (i + 1) % images.length)
   const prev = () => setIndex((i) => (i - 1 + images.length) % images.length)
 
+
+
+useEffect(() => {
+  if (paused) return
+  const timer = setInterval(next, 4000)
+  return () => clearInterval(timer)
+}, [index, paused])
+
   return (
-    <div className="relative w-full mb-3">
+    <div className="relative w-full mb-3"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+  >
       <img
         src={images[index]}
         alt={`Screenshot ${index + 1}`}
