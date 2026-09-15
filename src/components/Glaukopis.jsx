@@ -4,22 +4,22 @@ import Collapsible from './Collapsible'
 // we make the slid show iterate on its own when we decide to mess with style
 
 const screenshots = [
-   '/src/photos/glaukopis/welcome.png',
-    '/src/photos/glaukopis/info.png',
-    '/src/photos/glaukopis/login.png',
-    '/src/photos/glaukopis/admin.png',
-    '/src/photos/glaukopis/chat.png',
-    // '/src/photos/glaukopis/cv.png',
-    '/src/photos/glaukopis/dash.png',
-    '/src/photos/glaukopis/guide.png',
-    '/src/photos/glaukopis/pchat.png',
-    '/src/photos/glaukopis/profile.png',
-    '/src/photos/glaukopis/edit.png',
-    '/src/photos/glaukopis/rooms.png',
-    '/src/photos/glaukopis/search.png',
-    '/src/photos/glaukopis/pupp.png',
-    '/src/photos/glaukopis/rrp.png',
-    '/src/photos/glaukopis/Sadmin.png',
+   '/public/photos/glaukopis/welcome.png',
+    '/public/photos/glaukopis/info.png',
+    '/public/photos/glaukopis/login.png',
+    '/public/photos/glaukopis/admin.png',
+    '/public/photos/glaukopis/chat.png',
+    // '/public/photos/glaukopis/cv.png',
+    '/public/photos/glaukopis/dash.png',
+    '/public/photos/glaukopis/guide.png',
+    '/public/photos/glaukopis/pchat.png',
+    '/public/photos/glaukopis/profile.png',
+    '/public/photos/glaukopis/edit.png',
+    '/public/photos/glaukopis/rooms.png',
+    '/public/photos/glaukopis/search.png',
+    '/public/photos/glaukopis/pupp.png',
+    '/public/photos/glaukopis/rrp.png',
+    '/public/photos/glaukopis/Sadmin.png',
    
     
 ]

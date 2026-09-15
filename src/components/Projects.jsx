@@ -9,16 +9,16 @@ const projects = [
     repo: 'https://github.com/Basmala-hates-this/agenda4',
     
     images: [
-    '/src/photos/projects/ag-wel.png',
-    '/src/photos/projects/ag-log.png',
-    '/src/photos/projects/add.png',
-    '/src/photos/projects/edit.png',
-    '/src/photos/projects/help.png',
-    '/src/photos/projects/list.png',
-    '/src/photos/projects/mon.png',
-    '/src/photos/projects/not.png',
-    '/src/photos/projects/sign.png',
-    '/src/photos/projects/week.png',
+    '/public/photos/projects/ag-wel.png',
+    '/public/photos/projects/ag-log.png',
+    '/public/photos/projects/add.png',
+    '/public/photos/projects/edit.png',
+    '/public/photos/projects/help.png',
+    '/public/photos/projects/list.png',
+    '/public/photos/projects/mon.png',
+    '/public/photos/projects/not.png',
+    '/public/photos/projects/sign.png',
+    '/public/photos/projects/week.png',
   ],
   features: [
     'Shared calendar view [monthly, weekly, notification and event list]',
@@ -40,8 +40,8 @@ const projects = [
     status: 'Split across two repos (client + server).',
     repo: 'https://github.com/Basmala-hates-this/RoomChat-Client',
     images: [
-    '/src/photos/projects/ro-ch.png',
-    '/src/photos/projects/room-log.png',
+    '/public/photos/projects/ro-ch.png',
+    '/public/photos/projects/room-log.png',
   ],
   features: [
     'Client-server architecture using Java sockets',
@@ -58,9 +58,9 @@ const projects = [
     status: 'Database lost — no longer live, code preserved as reference.',
     repo: 'https://github.com/Basmala-hates-this/Albume-recovery',
     images:[
-    '/src/photos/projects/alb.png',
-    '/src/photos/projects/hov.png',
-    '/src/photos/projects/slid.png',
+    '/public/photos/projects/alb.png',
+    '/public/photos/projects/hov.png',
+    '/public/photos/projects/slid.png',
     ],
     features: [
     'Photo upload via file selection or URL',
@@ -78,7 +78,7 @@ const projects = [
     tech: 'Node.js,HTML,CSS',
     status: null,
     repo: 'https://github.com/Basmala-hates-this/film-gallery',
-    image: '/src/photos/projects/movie.png',
+    image: '/public/photos/projects/movie.png',
 
   },
   {
@@ -88,7 +88,7 @@ const projects = [
     status: 'First project I ever deployed (Netlify).',
     repo: 'https://github.com/Basmala-hates-this/Back-With-The-Milk',
     liveLink: "https://back-with-the-milk.netlify.app",
-    image: '/src/photos/projects/bwtm.png',
+    image: '/public/photos/projects/bwtm.png',
   },
   {
     name: 'RMI Calculator',
@@ -97,8 +97,8 @@ const projects = [
     status: 'Terminal only, no interface was built.',
     repo: 'https://github.com/Basmala-hates-this/RMIProject',
     images:[
-        '/src/photos/projects/calc.png',
-        '/src/photos/projects/serv-cal.png',
+        '/public/photos/projects/calc.png',
+        '/public/photos/projects/serv-cal.png',
     ]
   },
   {
@@ -108,7 +108,7 @@ const projects = [
     status: 'Deployed on Netlify.',
     repo: 'https://github.com/Basmala-hates-this/frog',
     liveLink :"https://frogged.netlify.app",
-    image: '/src/photos/projects/frog.png',
+    image: '/public/photos/projects/frog.png',
   },
 ]
 
